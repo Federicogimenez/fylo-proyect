@@ -1,5 +1,12 @@
 .home-container{
     display: block;
     background-color: #fec791;
+    background-image: linear-gradient(#fec791, #fff);
     padding: 0 50px;
+    padding-bottom: 3rem;
+}
+@media screen and (max-width:900px) {
+    .home-container{
+        padding: 0px;
+    }
 }

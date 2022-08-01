@@ -9,14 +9,17 @@
     &>*{
         flex: 0 0 40%;
         height: 100%;
+        width: 100%;
         padding: 4rem 0;
     }
 }
 .fylo{
-    background-color: #ffffff;
+    background-color: #fec791;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
 }
 .productive{
-    background-color: #f9f8fd;
+    background-color: #fff;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
 }
 .img{
     width: 100%;
